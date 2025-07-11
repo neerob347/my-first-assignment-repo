@@ -166,6 +166,44 @@ nav li{
       font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  margin: 200px 150px;
+  margin: 200px 150px 137px;
+}
+.focus-section a{
+  text-decoration: none;
+}
+/*Section Styling */
+.focus-section {
+   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #f7f8fa;
+  padding: 80px 20px;
+  margin: 137px 150px;
+  border-radius: 14px;
+  text-align: center;
 }
 
+.focus-section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.focus-section .subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.focus-section .btn:hover {
+  background-color: #4752c4;
+}
+
+/* Image Styling */
+.image-container img {
+  max-width: 90%;
+  border-radius: 48px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
