@@ -78,12 +78,12 @@ nav li{
 .stats {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 210px;
   margin-top: 20px;
 }
 
 .stat-item h3 {
-  font-size: 36px;
+  font-size: 50px;
   color: #5C6DF2;
   margin: 0;
 }
@@ -97,3 +97,75 @@ nav li{
     font-size:38px;
     font-weight: bold;
 }
+.testimonial-title{
+  font-size: 42px;
+}
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.testimonials h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stars {
+  color: #FFD700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  margin: 10px 0;
+}
+
+.testimonial-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer strong {
+  font-size: 14px;
+}
+
+.reviewer small {
+  color: #888;
+  font-size: 12px;
+}
+.testimonials{
+      font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 200px 150px;
+}
+
